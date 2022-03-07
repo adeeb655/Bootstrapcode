@@ -7,18 +7,23 @@ responsive:{
     items:1
 },
 600:{
-    items:3
+    items:5     
 },
 1000:{
-    items:5
+    items:3
 }
 }
 })
 
+$('.story_slider ').slick({
+    dots: true,
 
-$('.logos ').slick({
-  slidesToShow: 4,
-   slidesToScroll: 1,
-   autoplay: true,
-   autoplaySpeed: 1000,
- }); 
+});
+
+
+// $('.logos ').slick({
+//   slidesToShow: 4,
+//    slidesToScroll: 1,
+//    autoplay: true,
+//    autoplaySpeed: 1000,
+//  }); 
